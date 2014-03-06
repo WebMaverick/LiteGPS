@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6692D889174494160028C882 /* Locations.m in Sources */ = {isa = PBXBuildFile; fileRef = 6692D888174494160028C882 /* Locations.m */; };
+		6692D8911744960F0028C882 /* TripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6692D88F1744960F0028C882 /* TripViewController.m */; };
+		6692D8921744960F0028C882 /* TripViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6692D8901744960F0028C882 /* TripViewController.xib */; };
+		6692D89317449F0B0028C882 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C14E841738675500F7F5D2 /* CoreData.framework */; };
+		66A27C2F163613C200A5E237 /* CLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A27C2E163613C200A5E237 /* CLController.m */; };
+		66C1AF0017445757001534DE /* GPSData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 66C1AEFE17445757001534DE /* GPSData.xcdatamodeld */; };
+		66E89AE1163207C80071021F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E89AE0163207C80071021F /* UIKit.framework */; };
+		66E89AE3163207C80071021F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E89AE2163207C80071021F /* Foundation.framework */; };
+		66E89AE5163207C80071021F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E89AE4163207C80071021F /* CoreGraphics.framework */; };
+		66E89AEB163207C80071021F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66E89AE9163207C80071021F /* InfoPlist.strings */; };
+		66E89AED163207C80071021F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E89AEC163207C80071021F /* main.m */; };
+		66E89AF1163207C80071021F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E89AF0163207C80071021F /* AppDelegate.m */; };
+		66E89AF3163207C80071021F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E89AF2163207C80071021F /* Default.png */; };
+		66E89AF5163207C80071021F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E89AF4163207C80071021F /* Default@2x.png */; };
+		66E89AF7163207C80071021F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66E89AF6163207C80071021F /* Default-568h@2x.png */; };
+		66E89AFA163207C80071021F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E89AF9163207C80071021F /* ViewController.m */; };
+		66E89AFD163207C80071021F /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66E89AFB163207C80071021F /* ViewController_iPhone.xib */; };
+		66E89B00163207C80071021F /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66E89AFE163207C80071021F /* ViewController_iPad.xib */; };
+		66E89B08163207C80071021F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E89B07163207C80071021F /* SenTestingKit.framework */; };
+		66E89B09163207C80071021F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E89AE0163207C80071021F /* UIKit.framework */; };
+		66E89B0A163207C80071021F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E89AE2163207C80071021F /* Foundation.framework */; };
+		66E89B12163207C80071021F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66E89B10163207C80071021F /* InfoPlist.strings */; };
+		66E89B15163207C80071021F /* LiteGPSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E89B14163207C80071021F /* LiteGPSTests.m */; };
+		66E89B23163216E60071021F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E89B22163216E60071021F /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66E89B0B163207C80071021F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66E89AD3163207C70071021F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66E89ADB163207C80071021F;
+			remoteInfo = LiteGPS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6692D887174494160028C882 /* Locations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Locations.h; path = data/Locations.h; sourceTree = "<group>"; };
+		6692D888174494160028C882 /* Locations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Locations.m; path = data/Locations.m; sourceTree = "<group>"; };
+		6692D88E1744960F0028C882 /* TripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TripViewController.h; path = "view-controllers/TripViewController.h"; sourceTree = "<group>"; };
+		6692D88F1744960F0028C882 /* TripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TripViewController.m; path = "view-controllers/TripViewController.m"; sourceTree = "<group>"; };
+		6692D8901744960F0028C882 /* TripViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TripViewController.xib; path = "view-controllers/TripViewController.xib"; sourceTree = "<group>"; };
+		66A27C2D163613C200A5E237 /* CLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLController.h; sourceTree = "<group>"; };
+		66A27C2E163613C200A5E237 /* CLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLController.m; sourceTree = "<group>"; };
+		66C14E841738675500F7F5D2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		66C1AEFF17445757001534DE /* GPSData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GPSData.xcdatamodel; sourceTree = "<group>"; };
+		66E89ADC163207C80071021F /* LiteGPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiteGPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E89AE0163207C80071021F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		66E89AE2163207C80071021F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66E89AE4163207C80071021F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		66E89AE8163207C80071021F /* LiteGPS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LiteGPS-Info.plist"; sourceTree = "<group>"; };
+		66E89AEA163207C80071021F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66E89AEC163207C80071021F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66E89AEE163207C80071021F /* LiteGPS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LiteGPS-Prefix.pch"; sourceTree = "<group>"; };
+		66E89AEF163207C80071021F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66E89AF0163207C80071021F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66E89AF2163207C80071021F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		66E89AF4163207C80071021F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		66E89AF6163207C80071021F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		66E89AF8163207C80071021F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66E89AF9163207C80071021F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66E89AFC163207C80071021F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		66E89AFF163207C80071021F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		66E89B06163207C80071021F /* LiteGPSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiteGPSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E89B07163207C80071021F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		66E89B0F163207C80071021F /* LiteGPSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LiteGPSTests-Info.plist"; sourceTree = "<group>"; };
+		66E89B11163207C80071021F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66E89B13163207C80071021F /* LiteGPSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiteGPSTests.h; sourceTree = "<group>"; };
+		66E89B14163207C80071021F /* LiteGPSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiteGPSTests.m; sourceTree = "<group>"; };
+		66E89B22163216E60071021F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66E89AD9163207C80071021F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6692D89317449F0B0028C882 /* CoreData.framework in Frameworks */,
+				66E89B23163216E60071021F /* CoreLocation.framework in Frameworks */,
+				66E89AE1163207C80071021F /* UIKit.framework in Frameworks */,
+				66E89AE3163207C80071021F /* Foundation.framework in Frameworks */,
+				66E89AE5163207C80071021F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E89B02163207C80071021F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E89B08163207C80071021F /* SenTestingKit.framework in Frameworks */,
+				66E89B09163207C80071021F /* UIKit.framework in Frameworks */,
+				66E89B0A163207C80071021F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6692D88A174494AD0028C882 /* GPSData */ = {
+			isa = PBXGroup;
+			children = (
+				6692D887174494160028C882 /* Locations.h */,
+				6692D888174494160028C882 /* Locations.m */,
+				66C1AEFE17445757001534DE /* GPSData.xcdatamodeld */,
+			);
+			name = GPSData;
+			sourceTree = "<group>";
+		};
+		6692D88D174495880028C882 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6692D88E1744960F0028C882 /* TripViewController.h */,
+				6692D88F1744960F0028C882 /* TripViewController.m */,
+				6692D8901744960F0028C882 /* TripViewController.xib */,
+				66E89AF8163207C80071021F /* ViewController.h */,
+				66E89AF9163207C80071021F /* ViewController.m */,
+				66E89AFB163207C80071021F /* ViewController_iPhone.xib */,
+				66E89AFE163207C80071021F /* ViewController_iPad.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		66E89AD1163207C70071021F = {
+			isa = PBXGroup;
+			children = (
+				66E89AE6163207C80071021F /* LiteGPS */,
+				66E89B0D163207C80071021F /* LiteGPSTests */,
+				66E89ADF163207C80071021F /* Frameworks */,
+				66E89ADD163207C80071021F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66E89ADD163207C80071021F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66E89ADC163207C80071021F /* LiteGPS.app */,
+				66E89B06163207C80071021F /* LiteGPSTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66E89ADF163207C80071021F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66C14E841738675500F7F5D2 /* CoreData.framework */,
+				66E89B22163216E60071021F /* CoreLocation.framework */,
+				66E89AE0163207C80071021F /* UIKit.framework */,
+				66E89AE2163207C80071021F /* Foundation.framework */,
+				66E89AE4163207C80071021F /* CoreGraphics.framework */,
+				66E89B07163207C80071021F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66E89AE6163207C80071021F /* LiteGPS */ = {
+			isa = PBXGroup;
+			children = (
+				6692D88D174495880028C882 /* View Controllers */,
+				6692D88A174494AD0028C882 /* GPSData */,
+				66E89AEF163207C80071021F /* AppDelegate.h */,
+				66E89AF0163207C80071021F /* AppDelegate.m */,
+				66A27C2D163613C200A5E237 /* CLController.h */,
+				66A27C2E163613C200A5E237 /* CLController.m */,
+				66E89AE7163207C80071021F /* Supporting Files */,
+			);
+			path = LiteGPS;
+			sourceTree = "<group>";
+		};
+		66E89AE7163207C80071021F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66E89AE8163207C80071021F /* LiteGPS-Info.plist */,
+				66E89AE9163207C80071021F /* InfoPlist.strings */,
+				66E89AEC163207C80071021F /* main.m */,
+				66E89AEE163207C80071021F /* LiteGPS-Prefix.pch */,
+				66E89AF2163207C80071021F /* Default.png */,
+				66E89AF4163207C80071021F /* Default@2x.png */,
+				66E89AF6163207C80071021F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66E89B0D163207C80071021F /* LiteGPSTests */ = {
+			isa = PBXGroup;
+			children = (
+				66E89B13163207C80071021F /* LiteGPSTests.h */,
+				66E89B14163207C80071021F /* LiteGPSTests.m */,
+				66E89B0E163207C80071021F /* Supporting Files */,
+			);
+			path = LiteGPSTests;
+			sourceTree = "<group>";
+		};
+		66E89B0E163207C80071021F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66E89B0F163207C80071021F /* LiteGPSTests-Info.plist */,
+				66E89B10163207C80071021F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66E89ADB163207C80071021F /* LiteGPS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E89B18163207C80071021F /* Build configuration list for PBXNativeTarget "LiteGPS" */;
+			buildPhases = (
+				66E89AD8163207C80071021F /* Sources */,
+				66E89AD9163207C80071021F /* Frameworks */,
+				66E89ADA163207C80071021F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiteGPS;
+			productName = LiteGPS;
+			productReference = 66E89ADC163207C80071021F /* LiteGPS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66E89B05163207C80071021F /* LiteGPSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E89B1B163207C80071021F /* Build configuration list for PBXNativeTarget "LiteGPSTests" */;
+			buildPhases = (
+				66E89B01163207C80071021F /* Sources */,
+				66E89B02163207C80071021F /* Frameworks */,
+				66E89B03163207C80071021F /* Resources */,
+				66E89B04163207C80071021F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66E89B0C163207C80071021F /* PBXTargetDependency */,
+			);
+			name = LiteGPSTests;
+			productName = LiteGPSTests;
+			productReference = 66E89B06163207C80071021F /* LiteGPSTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66E89AD3163207C70071021F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Adam Hardtke";
+			};
+			buildConfigurationList = 66E89AD6163207C80071021F /* Build configuration list for PBXProject "LiteGPS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66E89AD1163207C70071021F;
+			productRefGroup = 66E89ADD163207C80071021F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66E89ADB163207C80071021F /* LiteGPS */,
+				66E89B05163207C80071021F /* LiteGPSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66E89ADA163207C80071021F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E89AEB163207C80071021F /* InfoPlist.strings in Resources */,
+				66E89AF3163207C80071021F /* Default.png in Resources */,
+				66E89AF5163207C80071021F /* Default@2x.png in Resources */,
+				66E89AF7163207C80071021F /* Default-568h@2x.png in Resources */,
+				66E89AFD163207C80071021F /* ViewController_iPhone.xib in Resources */,
+				66E89B00163207C80071021F /* ViewController_iPad.xib in Resources */,
+				6692D8921744960F0028C882 /* TripViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E89B03163207C80071021F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E89B12163207C80071021F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66E89B04163207C80071021F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66E89AD8163207C80071021F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E89AED163207C80071021F /* main.m in Sources */,
+				66E89AF1163207C80071021F /* AppDelegate.m in Sources */,
+				66E89AFA163207C80071021F /* ViewController.m in Sources */,
+				66A27C2F163613C200A5E237 /* CLController.m in Sources */,
+				66C1AF0017445757001534DE /* GPSData.xcdatamodeld in Sources */,
+				6692D889174494160028C882 /* Locations.m in Sources */,
+				6692D8911744960F0028C882 /* TripViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E89B01163207C80071021F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E89B15163207C80071021F /* LiteGPSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66E89B0C163207C80071021F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66E89ADB163207C80071021F /* LiteGPS */;
+			targetProxy = 66E89B0B163207C80071021F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66E89AE9163207C80071021F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66E89AEA163207C80071021F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66E89AFB163207C80071021F /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66E89AFC163207C80071021F /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		66E89AFE163207C80071021F /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66E89AFF163207C80071021F /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		66E89B10163207C80071021F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66E89B11163207C80071021F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66E89B16163207C80071021F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66E89B17163207C80071021F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66E89B19163207C80071021F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LiteGPS/LiteGPS-Prefix.pch";
+				INFOPLIST_FILE = "LiteGPS/LiteGPS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66E89B1A163207C80071021F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LiteGPS/LiteGPS-Prefix.pch";
+				INFOPLIST_FILE = "LiteGPS/LiteGPS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		66E89B1C163207C80071021F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LiteGPS.app/LiteGPS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LiteGPS/LiteGPS-Prefix.pch";
+				INFOPLIST_FILE = "LiteGPSTests/LiteGPSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		66E89B1D163207C80071021F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LiteGPS.app/LiteGPS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LiteGPS/LiteGPS-Prefix.pch";
+				INFOPLIST_FILE = "LiteGPSTests/LiteGPSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66E89AD6163207C80071021F /* Build configuration list for PBXProject "LiteGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E89B16163207C80071021F /* Debug */,
+				66E89B17163207C80071021F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66E89B18163207C80071021F /* Build configuration list for PBXNativeTarget "LiteGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E89B19163207C80071021F /* Debug */,
+				66E89B1A163207C80071021F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66E89B1B163207C80071021F /* Build configuration list for PBXNativeTarget "LiteGPSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E89B1C163207C80071021F /* Debug */,
+				66E89B1D163207C80071021F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		66C1AEFE17445757001534DE /* GPSData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				66C1AEFF17445757001534DE /* GPSData.xcdatamodel */,
+			);
+			currentVersion = 66C1AEFF17445757001534DE /* GPSData.xcdatamodel */;
+			name = GPSData.xcdatamodeld;
+			path = data/GPSData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 66E89AD3163207C70071021F /* Project object */;
+}
